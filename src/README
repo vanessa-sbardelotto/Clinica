@@ -1,0 +1,29 @@
+O sistema desenvolvido tem como objetivo realizar o cadastro de pacientes atendidos em uma unidade de saúde,
+permitindo registrar informações pessoais e, quando necessário, receitas médicas relacionadas ao uso de medicamentos
+controlados. A proposta central do projeto é organizar esses dados de forma clara e acessível, utilizando um menu
+simples que conduz o usuário pelas principais funcionalidades.
+A estrutura do sistema foi dividida em classes para facilitar a compreensão e a manutenção do código.
+A classe Paciente representa os dados essenciais de cada paciente nome e CPF, unidade de saúde e a indicação
+sobre o uso de medicamentos controlados. Quando esse uso é confirmado, o sistema possibilita o cadastro de uma
+receita médica, que é representada pela classe Receita. Essa classe separada armazena informações específicas,
+como nome do medicamento, dosagem e orientações de uso, mantendo o código organizado e permitindo futuras expansões,
+se necessário.
+No sistema desenvolvido, o gerenciamento dos pacientes é realizado diretamente por meio de listas do tipo ArrayList,
+que armazenam os registros inseridos durante a execução do programa. Essa abordagem permite organizar os dados de
+forma simples e eficiente, facilitando operações como cadastrar e listar pacientes. Para tornar o processo mais
+seguro e evitar inconsistências, o sistema conta também com uma exceção personalizada, utilizada para indicar situações
+em que informações obrigatórias não foram fornecidas corretamente. Dessa forma, sempre que um dado essencial estiver
+incompleto ou incorreto, o programa consegue identificar o problema e orientar o usuário, garantindo maior
+confiabilidade e integridade nos registros armazenados.
+O funcionamento geral é conduzido pela classe Principal, que contém o método main e apresenta um menu interativo
+ao usuário. Por meio dele, é possível cadastrar novos pacientes, médicos, unidade de saúde, especialidade, consulta,
+listar consulta e encerrar o programa. Durante o cadastro, o fluxo de perguntas segue uma sequência lógica, incluindo
+a verificação sobre o uso de medicamentos controlados e, se for o caso, a oferta para cadastrar a receita
+correspondente.
+De maneira geral, o sistema demonstra conceitos importantes de programação orientada a objetos, como encapsulamento,
+modularização, tratamento de exceções e interação com o usuário. Embora simples, ele cumpre o propósito de organizar
+informações e evidencia uma estrutura adequada para possíveis melhorias futuras, como atualização de dados, busca
+individual ou expansão das funcionalidades médicas
+
+Abaixo segue o link do vídeo postado com a explicação:
+https://youtu.be/zehLu7KDf-s. 
